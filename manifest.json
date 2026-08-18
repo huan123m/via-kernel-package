@@ -1,0 +1,52 @@
+{
+  "manifestVersion": 1,
+  "repository": "https://github.com/huan123m/via-kernel-package",
+  "branch": "main",
+  "drivers": [
+    {
+      "name": "Via-5.10.ko.sh",
+      "url": "https://raw.githubusercontent.com/huan123m/via-kernel-package/main/drivers/Via-5.10.ko.sh",
+      "version": "1.0.0",
+      "kernel": "5.10",
+      "sha256": "6682DFC479D5024B6035FB2DE66DEAD3B79DFEBF54A5182FBA9975CF0F58440A"
+    },
+    {
+      "name": "Via-5.15.ko.sh",
+      "url": "https://raw.githubusercontent.com/huan123m/via-kernel-package/main/drivers/Via-5.15.ko.sh",
+      "version": "1.0.0",
+      "kernel": "5.15",
+      "sha256": "CC4CE740B7492F492F8BBA78A3FDEF72648B0DFA6422CD9AE5105661A5DAC820"
+    },
+    {
+      "name": "Via-6.1.ko.sh",
+      "url": "https://raw.githubusercontent.com/huan123m/via-kernel-package/main/drivers/Via-6.1.ko.sh",
+      "version": "1.0.0",
+      "kernel": "6.1",
+      "sha256": "CE0704BE86C87DB9B80158E20A9AC1BB741ECA7FE433F669CD64D2195BCFCE23"
+    },
+    {
+      "name": "Via-6.6.ko.sh",
+      "url": "https://raw.githubusercontent.com/huan123m/via-kernel-package/main/drivers/Via-6.6.ko.sh",
+      "version": "1.0.0",
+      "kernel": "6.6",
+      "sha256": "0ED007E263F8F135E3BCBE41AA05F08A20CF0F63BB0AB91D1C23B8AB9B92CCB1"
+    },
+    {
+      "name": "Via-6.12.ko.sh",
+      "url": "https://raw.githubusercontent.com/huan123m/via-kernel-package/main/drivers/Via-6.12.ko.sh",
+      "version": "1.0.0",
+      "kernel": "6.12",
+      "sha256": "AED2C3325D0EF011E098BC9A56F16A8144E29B5BB1E715571C38064A91B18F6E"
+    }
+  ],
+  "kernels": [
+    {
+      "name": "kernel.gz",
+      "url": "https://github.com/huan123m/via-kernel-package/releases/download/v1.0.0/kernel.gz",
+      "targetName": "kernel",
+      "compression": "gzip",
+      "version": "1.0.0",
+      "sha256": "810146E527D2AF53C862658726C8344041DF32608572F61655246A1FFBFD96F8"
+    }
+  ]
+}
